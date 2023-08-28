@@ -1,0 +1,9 @@
+body{
+    margin : 0;
+    background-color: rgba(151, 232, 131, 0.945);
+}
+
+body #layout-main {
+    min-height: 80vh;
+    padding: 10px;
+  }

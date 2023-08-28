@@ -1,0 +1,8 @@
+#layout-footer {
+    display: flex;
+    justify-content: center;
+    background-color:#188b6b;
+    padding: 5px 10px;
+    color: antiquewhite;
+    height: 11vh;
+}
