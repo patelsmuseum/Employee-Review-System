@@ -1,5 +1,5 @@
 const express = require('express'); // requiring express, 
-const port = 8000; // assigning port, so that I can try and test as this post,
+const port = process.env.PORT || 8000; // assigning port, so that I can try and test as this post,
 const app = express(); 
 
 // requiring express-ejs-layout, it will help in rendering the page.

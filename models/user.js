@@ -30,7 +30,7 @@ const UserSchema = new mongoose.Schema({
     reviewRecivedFrom: [    // recieved review from another people
         {
             type: mongoose.Schema.Types.ObjectId,
-            ref: 'Review',
+            ref: 'Review'
         }
     ]
 }, 
