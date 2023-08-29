@@ -35,8 +35,7 @@ app.use(expressLayout);
 
 // mongo store is used to store the session cookie in the db 
 app.use(session({
-    name: "ERS",
-    // change secret during before deployment in production 
+    name: "ERS", 
     secret: "employeeReviewSystem",
     saveUninitialized: false,
     resave: false,
@@ -44,7 +43,7 @@ app.use(session({
         maxAge: (1000 * 60 * 100)
     },
     store: MongoStore.create({
-        mongoUrl: 'mongodb://127.0.0.1:27017/ersData',
+        mongoUrl: 'mongodb+srv://pankajpurshotam:patel123@cluster0.ypd4rpe.mongodb.net/?retryWrites=true&w=majority',
         autoRemove: 'disabled'
     },
         (err) => {
